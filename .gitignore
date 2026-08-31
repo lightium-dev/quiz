@@ -1,0 +1,7 @@
+node_modules/
+.expo/
+*.log
+npm-debug.log*
+.DS_Store
+package-lock.json
+

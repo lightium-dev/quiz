@@ -1,0 +1,17 @@
+module.exports = [
+{ id: 1, category: 'general', text: 'What is the capital of Morocco?', options: ['Casablanca', 'Rabat', 'Marrakech', 'Fez'], correctIndex: 1 },
+{ id: 2, category: 'general', text: 'How many continents are there?', options: ['5', '6', '7', '8'], correctIndex: 2 },
+{ id: 3, category: 'general', text: 'What is the largest ocean on Earth?', options: ['Atlantic', 'Indian', 'Arctic', 'Pacific'], correctIndex: 3 },
+{ id: 4, category: 'general', text: 'Which planet is known as the Red Planet?', options: ['Venus', 'Mars', 'Jupiter', 'Saturn'], correctIndex: 1 },
+{ id: 5, category: 'general', text: 'What language has the most native speakers?', options: ['English', 'Spanish', 'Mandarin Chinese', 'Hindi'], correctIndex: 2 },
+{ id: 6, category: 'logic', text: 'If all Bloops are Razzies and all Razzies are Lazzies, are all Bloops definitely Lazzies?', options: ['Yes', 'No', 'Cannot be determined', 'Only sometimes'], correctIndex: 0 },
+{ id: 7, category: 'logic', text: 'What comes next: 2, 4, 8, 16, ?', options: ['24', '32', '20', '18'], correctIndex: 1 },
+{ id: 8, category: 'logic', text: 'A is taller than B. B is taller than C. Who is shortest?', options: ['A', 'B', 'C', 'Cannot tell'], correctIndex: 2 },
+{ id: 9, category: 'logic', text: 'Which number does not belong: 3, 5, 7, 10, 11?', options: ['3', '10', '7', '11'], correctIndex: 1 },
+{ id: 10, category: 'logic', text: 'If today is Monday, what day was it 3 days ago?', options: ['Thursday', 'Friday', 'Saturday', 'Sunday'], correctIndex: 1 },
+{ id: 11, category: 'entertainment', text: 'Which instrument has 88 keys?', options: ['Guitar', 'Piano', 'Violin', 'Flute'], correctIndex: 1 },
+{ id: 12, category: 'entertainment', text: 'What movie franchise features the Force?', options: ['Star Trek', 'Star Wars', 'Marvel', 'Harry Potter'], correctIndex: 1 },
+{ id: 13, category: 'entertainment', text: 'Which artist is known for the song Thriller?', options: ['Prince', 'Michael Jackson', 'Elvis Presley', 'Stevie Wonder'], correctIndex: 1 },
+{ id: 14, category: 'entertainment', text: 'What is the best-selling video game of all time?', options: ['Tetris', 'Minecraft', 'GTA V', 'Fortnite'], correctIndex: 1 },
+{ id: 15, category: 'entertainment', text: 'Which of these is an animated film studio?', options: ['Pixar', 'Sony Music', 'Netflix', 'Spotify'], correctIndex: 0 },
+];
