@@ -4,7 +4,7 @@ const questions = require('./data/questions');
 const app = express();
 
 const PORT = 3000;
-0app.use(cors());
+app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
