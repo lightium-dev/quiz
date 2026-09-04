@@ -1,4 +1,3 @@
-import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
 export default function ProgressBar({ current, total }) {
@@ -18,5 +17,5 @@ const styles = StyleSheet.create({
 container: { marginBottom: 8 },
 label: { fontSize: 14, marginBottom: 6, color: '#666' },
 track: { height: 8, borderRadius: 4, backgroundColor: '#E0E0E0', overflow: 'hidden' },
-fill: { height: 8, backgroundColor: '#5B4CFF' },
+fill: { height: 8, backgroundColor: '#D9A441' },
 });

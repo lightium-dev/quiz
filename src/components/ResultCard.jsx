@@ -1,4 +1,3 @@
-import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 
 export default function ResultCard({ score, total, onRestart }) {
@@ -17,6 +16,6 @@ const styles = StyleSheet.create({
 container: { flex: 1, justifyContent: 'center', alignItems: 'center' },
 score: { fontSize: 48, fontWeight: 'bold', marginBottom: 12 },
 message: { fontSize: 18, marginBottom: 24, color: '#666' },
-button: { paddingVertical: 14, paddingHorizontal: 32, borderRadius: 10, backgroundColor: '#5B4CFF' },
+button: { paddingVertical: 14, paddingHorizontal: 32, borderRadius: 16, backgroundColor: '#D9A441' },
 buttonText: { color: '#fff', fontSize: 16, fontWeight: '600' },
 });

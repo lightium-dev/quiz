@@ -1,5 +1,4 @@
 const BASE_URL = 'http://192.168.1.155:3000';
-
 export async function fetchQuestions(category) {
 const response = await fetch(`${BASE_URL}/questions?category=${category}`);
 if (!response.ok) {
